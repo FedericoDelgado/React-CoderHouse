@@ -1,4 +1,5 @@
 .navbar{
+    background-color: bisque;
     display: flex;
     flex-direction: row;
     align-items: center;
