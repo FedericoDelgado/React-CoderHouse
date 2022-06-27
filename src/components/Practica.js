@@ -1,4 +1,5 @@
-import { Component } from "react"
+import { Component, useState } from "react"
+import Hello from "./Hello";
 
 class App extends Component {
     constructor() {
@@ -22,15 +23,4 @@ class App extends Component {
 }
 
 
-function Hello ({name}) {
 
-    return(
-        <p>
-            Hello {name}!
-        </p>
-    )
-
-}
-
-
-export default Hello 
