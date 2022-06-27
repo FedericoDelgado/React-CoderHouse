@@ -1,5 +1,12 @@
 .card{
-    height: 200px;
-    width: 150px;
+    height: 250px;
+    width: 300px;
     background-color: grey;
+    transition: all 0.3s ease;
+    margin: 1rem;
+    border: 1px solid rgb(156, 243, 25);
+    border-radius: 1rem;
+    padding: 1rem;
+
 }
+

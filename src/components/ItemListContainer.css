@@ -1,3 +1,8 @@
 .ItemList {
-    background-color: beige;
+    background-color: grey;
+    display: flex;
+    display: block;
+    height: 150px;
+    padding: 1rem 1rem;
+    text-align: center;
 }
