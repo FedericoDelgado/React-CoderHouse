@@ -1,10 +1,9 @@
 import './ItemListContainer.css';
 
-function ItemListContainer() {
+function ItemListContainer({greeting}) {
   return (
     <section className='ItemList'>
-      <h2>Nuestro Catálogo</h2>
-      <p>Elegi tus productos de estas listas:</p>
+      <h2>{greeting}</h2>
     </section>
   );
 }

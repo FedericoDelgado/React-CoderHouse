@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <NavbarComp/>
-      <ItemListContainer/>
+      <ItemListContainer greeting="Bienvendio, arme su pedido!"/>
       <Body/>
       <Body/>
       <Footer/>
