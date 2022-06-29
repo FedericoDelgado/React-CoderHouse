@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Combo Uno",
+        "stock": 7,
+        "precio": 2001,
+        "descuento": 0.8,
+        "categoria": "CompuArnada",
+        "id": 1,
+        "img": ""
+    },
+    {
+        "nombre": "Combo Dos",
+        "stock": 5,
+        "precio": 2002,
+        "descuento": 0.8,
+        "categoria": "CompuArnada",
+        "id": 2,
+        "img": ""
+    },
+    {
+        "nombre": "Combo Tres",
+        "stock": 12,
+        "precio": 2003,
+        "descuento": 0.8,
+        "categoria": "CompuArnada",
+        "id": 3,
+        "img": ""
+    },
+    {
+        "nombre": "Combo Cuatro",
+        "stock": 21,
+        "precio": 2004,
+        "descuento": 0.8,
+        "categoria": "CompuArnada",
+        "id": 4,
+        "img": ""
+    },
+    {
+        "nombre": "Monitor",
+        "stock": 32,
+        "precio": 2005,
+        "descuento": 0.8,
+        "categoria": "Repuesto",
+        "id": 5,
+        "img": ""
+    },
+    {
+        "nombre": "Gabinete",
+        "stock": 16,
+        "precio": 2006,
+        "descuento": 0.8,
+        "categoria": "Repuesto",
+        "id": 6,
+        "img": ""
+    },
+    {
+        "nombre": "GPU",
+        "stock": 11,
+        "precio": 2007,
+        "descuento": 0.8,
+        "categoria": "Repuesto",
+        "id": 7,
+        "img": ""
+    },
+    {
+        "nombre": "Memorias",
+        "stock": 6,
+        "precio": 2008,
+        "descuento": 0.8,
+        "categoria": "Repuesto",
+        "id": 8,
+        "img": ""
+    }
+]

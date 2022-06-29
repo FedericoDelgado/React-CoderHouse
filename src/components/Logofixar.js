@@ -1,5 +1,4 @@
-import "./Logofixar.css"
-import logofixar from '../assets/Fixarlogo.png'
+import logofixar from '../assets/img/Fixarlogo.png';
 
 
 function Logofixar() {

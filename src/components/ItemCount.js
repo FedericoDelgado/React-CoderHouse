@@ -18,7 +18,6 @@ function ItemCount(){
         setNum(0)
     }
 
-
     return (
         <>
           <div className='botonCarrito'>
@@ -26,7 +25,7 @@ function ItemCount(){
           <div className='Total'>{num}</div>
           <button onClick={sumar} className='right'> + </button> 
           </div>
-          <button onClick={reiniciar} className='botonCarrito'>Agregar al carrito</button>
+          <button onClick={reiniciar} className='Reiniciar'>Agregar al carrito</button>
         </>
     )
 }
