@@ -1,11 +1,22 @@
 import './ItemCount.css'
 import { useState } from "react";
+import Swal from 'sweetalert2';
 
-function ItemCount(){
-    const [num, setNum] = useState(0);
+function ItemCount({stock , initial}){
+    const [num, setNum] = useState(initial);
 
     const sumar = () => {
-        setNum(num + 1)   
+        if (num < stock){
+            setNum(num + 1)  
+        } 
+        else{
+            Swal.fire({
+                title: 'Atencion!',
+                text: 'Ya ha llegado al stock máximo de este producto',
+                icon: 'warning',
+                timer:2000
+              })
+        }
     }
 
     const restar =() => {
@@ -15,9 +26,22 @@ function ItemCount(){
     }
 
     const reiniciar = () => {
-        setNum(0)
+        setNum(initial)
     }
 
+    const onAdd = () => {
+        if (num > 0){
+        {console.log ('Se agregan ' + num + ' Unidades')}
+        {
+        Swal.fire({
+                title: 'Genial!',
+                text: 'Agregaste ' + num + ' unidades',
+                icon: 'success',
+                timer:2000
+              })
+        }}
+    }
+    
     return (
         <>
           <div className='botonCarrito'>
@@ -25,7 +49,8 @@ function ItemCount(){
           <div className='Total'>{num}</div>
           <button onClick={sumar} className='right'> + </button> 
           </div>
-          <button onClick={reiniciar} className='Reiniciar'>Agregar al carrito</button>
+          <button onClick={reiniciar} className='Reiniciar'>Limpiar carrito</button>
+          <button onClick={onAdd} className='Reiniciar'>{ num > 0 ? 'Agregar al carrito' : 'Elegi la cantidad'}</button>
         </>
     )
 }
