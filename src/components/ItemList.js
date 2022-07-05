@@ -9,7 +9,7 @@ function ItemList() {
   useEffect(()=>{
     setTimeout(() => {
       
-      fetch('data.json') //Trae el Response completo
+      fetch('producto.json') //Trae el Response completo
       .then((resp) => resp.json())//Extrae la informacion a utilizar de dentro de el Response
       .then((data) => setInfo(data))//Setear esa informacion en nuestro State
       .catch(err=>console.log(err))

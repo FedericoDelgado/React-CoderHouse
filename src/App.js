@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <NavbarComp/>
+      {/* <ItemDetailContainer/> */}
       <ItemListContainer Bienvenida="Bienvenido, arme su pedido!"/>
       <ItemList/>
       {/* <Container/> */}
